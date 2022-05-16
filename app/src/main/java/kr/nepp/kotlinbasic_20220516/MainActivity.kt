@@ -17,5 +17,12 @@ class MainActivity : AppCompatActivity() {
 
             Log.d("메인화면", "로그 찍기 버튼 눌림")
         }
+
+
+        btnLog.setOnLongClickListener {
+
+            Log.d("메인화면", "로그 버튼 길게 눌림")
+            return@setOnLongClickListener true
+        }
     }
 }
