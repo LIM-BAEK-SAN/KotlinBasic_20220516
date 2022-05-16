@@ -44,6 +44,11 @@ class MainActivity : AppCompatActivity() {
 
             name1 = "이철수" // var : 다시대입가능
 //            name2 = "정영희" // val : 상수이므로 변경이 불가능.
+
+            //변수 초기화 테스트
+
+            val year1 = 1988
+//            year1 = "천구백구십팔" //설정된 자료형은 계속 유지. (자료형 안맞아서 대입 불가)
         }
     }
 }
