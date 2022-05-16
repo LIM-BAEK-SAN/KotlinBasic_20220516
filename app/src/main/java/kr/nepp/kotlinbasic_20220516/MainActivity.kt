@@ -3,6 +3,7 @@ package kr.nepp.kotlinbasic_20220516
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.math.log
 
@@ -23,6 +24,12 @@ class MainActivity : AppCompatActivity() {
 
             Log.d("메인화면", "로그 버튼 길게 눌림")
             return@setOnLongClickListener true
+        }
+
+        btnToast.setOnClickListener {
+
+            //토스트 띄우기
+            Toast.makeText(this, "테스트용 토스트", Toast.LENGTH_SHORT).show()
         }
     }
 }
