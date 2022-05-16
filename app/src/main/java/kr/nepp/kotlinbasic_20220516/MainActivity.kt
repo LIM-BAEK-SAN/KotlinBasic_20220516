@@ -110,7 +110,6 @@ class MainActivity : AppCompatActivity() {
 //            1. edtMessage에 입력된 내용 (text속성 값을 변수에 담자)
 //            cf ) edittext의 text 속성을 가져올때는 toString()을 거쳐서 가져오는게 편하다.
             val inputMessage = edtMessage.text.toString()
-
 //            txtMessage의 text 속성에 값을 담아주자.
             txtMessage.text = inputMessage
         }
